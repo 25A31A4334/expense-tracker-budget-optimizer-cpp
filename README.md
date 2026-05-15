@@ -69,6 +69,68 @@ app
 
 ---
 
+## Sample Output
+```text
+============================================
+   EXPENSE TRACKER & BUDGET OPTIMIZER
+============================================
+
+1. Add Income
+2. Add Expense
+3. View Transactions
+4. View Balance
+5. Smart Budget Analysis
+6. Exit
+
+Enter your choice: 1
+
+Enter income category: Salary
+Enter amount: 20000
+
+Income added successfully!
+
+Enter your choice: 2
+
+Enter expense category: Food
+Enter amount: 3000
+
+Expense added successfully!
+
+Enter your choice: 2
+
+Enter expense category: Shopping
+Enter amount: 2500
+
+Expense added successfully!
+
+Enter your choice: 5
+
+========== SMART BUDGET ANALYSIS ==========
+
+===== CATEGORY-WISE EXPENSE REPORT =====
+
+Food : 3000 (54.5455%)
+Shopping : 2500 (45.4545%)
+
+Highest Spending Category : Food
+Highest Amount Spent      : 3000
+
+Lowest Spending Category  : Shopping
+Lowest Amount Spent       : 2500
+
+Highest Expense Percentage : 54.5455%
+
+Suggestion: Try reducing expenses in Food.
+
+Warning: Monthly spending is high!
+
+Financial Health Score : 45/100
+
+Needs Better Expense Control!
+```
+
+---
+
 ## Files in the Project
 - main.cpp – Main source code
 - transactions.txt – Stores transaction records (created automatically)
@@ -104,4 +166,4 @@ app
 ---
 
 ## About
-First-year C++ project for expense tracking and smart budget optimization.
+Smart Expense Tracker & Budget Optimizer using C++ and file handling to manage income, expenses, spending analysis, financial health score, and budget suggestions. Features dynamic expense categories, percentage analysis, and highest/lowest spending category detection.
